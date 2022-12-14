@@ -1,6 +1,8 @@
+import 'package:dayofcode/anonymus.dart';
 import 'package:dayofcode/container.dart';
 import 'package:dayofcode/rowncolum.dart';
 import 'package:dayofcode/state.dart';
+import 'package:dayofcode/textsytle.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter demo',
       theme: ThemeData(scaffoldBackgroundColor: Color.fromARGB(255, 253, 254, 255)),
-      home:State1(),
+      home:Textstyle(),
     );
   }
 }
